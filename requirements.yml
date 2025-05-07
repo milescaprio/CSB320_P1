@@ -13,3 +13,8 @@ dependencies:
   - ipython
   - pip
   - ipykernel
+  - pip:
+    - black[jupyter]
+    - black
+    - jupyterlab_code_formatter
+    - flake8
